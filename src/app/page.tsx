@@ -8,8 +8,8 @@ export default function Page() {
         <p>
           a sleek platform built with Next.js and TypeScript. Designed with
           Tailwind CSS, it features a responsive and visually appealing
-          interface. Whether you're exploring our content or navigating through
-          various sections, you'll experience seamless performance and intuitive
+          interface. Whether you are exploring our content or navigating through
+          various sections, you will experience seamless performance and intuitive
           design, thanks to the power of Next.js and the flexibility of Tailwind
           CSS.
         </p>
