@@ -4,6 +4,7 @@
 
 import { useEffect, useState } from "react";
 import axios from "axios";
+import Image from "next/image";
 
 interface PokemonDetails {
   name: string;
@@ -53,10 +54,11 @@ export default function PokemonPage({ params }: { params: { name: string } }) {
     <div className="container">
       <div className="max-w-5xl">
         <h1 className="mt-10 mb-3 text-3xl font-bold">{pokemon.name}</h1>
-        <img
+        <Image
           src={pokemon.sprites.front_default}
           alt={pokemon.name}
-          className="mb-4"
+          width={100}
+          height={150}
         />
         <p>Height: {pokemon.height / 10} m</p>
         <p>Weight: {pokemon.weight / 10} kg</p>
